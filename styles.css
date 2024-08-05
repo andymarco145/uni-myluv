@@ -1,3 +1,4 @@
+
 html, body {
     margin: 0;
     padding: 0;
@@ -29,9 +30,6 @@ html, body {
 }
 
 .press-btn {
-    position: absolute;
-    top: 50%;
-    left: 50%;
     background-color: #ff55aa;
     color: pink;
     border: none;
@@ -40,8 +38,11 @@ html, body {
     width: 40px;
     height: 40px; /* Kích thước nút */
     display: inline-block;
-    margin: 0 10px;
     transform: rotate(-45deg);
+    position: absolute;
+    top: 50%; /* Căn giữa theo chiều dọc */
+    left: 50%; /* Căn giữa theo chiều ngang */
+    transform: translate(-50%, -50%) rotate(-45deg); /* Dịch chuyển vào chính giữa và xoay */
 }
 
 .press-btn:before,
