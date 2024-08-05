@@ -41,7 +41,7 @@ html, body {
     transform: rotate(-45deg);
     position: absolute;
     top: 50%; /* Căn giữa theo chiều dọc */
-    left: 50%; /* Căn giữa theo chiều ngang */
+    left: 45%; /* Căn giữa theo chiều ngang */
     transform: translate(-50%, -50%) rotate(-45deg); /* Dịch chuyển vào chính giữa và xoay */
 }
 
