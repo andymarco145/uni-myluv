@@ -21,7 +21,7 @@ html, body {
 }
 
 .card {
-    width: 300px;
+    width: 200px;
     text-align: center;
     background-color: transparent; /* Loại bỏ nền màu đen */
     border: none; /* Loại bỏ viền */
